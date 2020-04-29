@@ -14,7 +14,13 @@
     "lib": [
       "es2018",
       "dom"
-    ]
+    ],
+    "paths": {
+      "libreria-prueba": [
+        "dist/libreria-prueba/libreria-prueba",
+        "dist/libreria-prueba"
+      ]
+    }
   },
   "angularCompilerOptions": {
     "fullTemplateTypeCheck": true,
